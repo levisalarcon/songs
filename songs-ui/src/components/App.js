@@ -1,12 +1,19 @@
 import React from 'react';
 import SongList from './SongsList';
+import SongDetails from './SongDetails';
 
 function App() {
   return (
-    <div className="App">
-      <h2>App</h2>
-      <SongList />
-    </div>
+      <div className="ui container grid">
+        <div className="ui row">
+          <div className="column eight wide">
+            <SongList />
+          </div>
+          <div className="column eight wide">
+            <SongDetails />
+          </div>
+        </div>
+      </div>
   );
 }
 

@@ -19,5 +19,5 @@ export const selectedSongReducer = (selectedSong = null, action) => {
 
 export const reducers = combineReducers({
     songs: songsListReducer,
-    selectedSong: selectedSongReducer
+    song: selectedSongReducer
 })
